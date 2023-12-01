@@ -86,7 +86,6 @@
   background-color: white;
   box-shadow: 0px 10px 20px 0px rgba(207, 207, 242, 0.5);
   font-family: hanken;
-  
 }
 .heading-box {
   display: flex;
@@ -95,14 +94,14 @@
   justify-content: flex-start;
 }
 .sum-heading {
-  margin: -36px 0px 20px 30px;
+  margin: -43px 0px 20px 30px;
   font-size: 20px;
   font-weight: 500;
 }
 .sum-detail-box {
   display: flex;
   flex-direction: column;
-  
+
   align-items: center;
   justify-content: center;
 }
@@ -167,9 +166,18 @@
 }
 
 .reaction-text {
-  color: hsl(359, 49%, 45%);
+  color: hsl(359, 88%, 59%);
 }
+.memory-text {
+  color: hsl(43, 91%, 53%);
+}
+.verbal-text {
+  color: hsl(165, 60%, 43%);
+}
+.visual-text { 
+  color: hsl(235, 71%, 46%);
 
+}
 .button-section {
   display: flex;
   flex-direction: row;
@@ -177,20 +185,20 @@
   justify-content: center;
 }
 
-.continue-button{
+.continue-button {
   padding: 16px 94px;
   color: white;
   font-weight: 500;
   font-size: 14px;
-  background-color: rgb(33, 33, 59);
+  background-color: hsl(224,30%,27%);
   border-radius: 36px;
-  border:none;
+  border: none;
   margin-bottom: -30px;
   margin-left: 2px;
   margin-top: 28px;
 }
-@media only screen and (max-width: 600px;){
-  .container-all{
+@media only screen and (max-width: 600px) {
+  .container-all {
     flex-direction: column;
   }
 }
